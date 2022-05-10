@@ -7,10 +7,10 @@ let alienInterval;
 
 //movimento e tiro da nave
 function flyShip(event) {
-    if(event.key === 'ArrowUp') {
+    if(event.key === 'w') {
         event.preventDefault();
         moveUp();
-    } else if(event.key === 'ArrowDown') {
+    } else if(event.key === 's') {
         event.preventDefault();
         moveDown();
     } else if(event.key === " ") {
